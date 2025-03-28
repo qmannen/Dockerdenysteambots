@@ -1,4 +1,4 @@
-#module.exports = {
-#    username: "yournamehere",
-#    password: "yourpasshere"
-#};
+module.exports = {
+    username: "YourUserHere",
+    password: "YourPasshere"
+};
