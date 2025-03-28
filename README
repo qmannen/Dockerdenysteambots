@@ -1,0 +1,13 @@
+Rename #config.js to config.js (remove the # sign)
+Open config.js and replace the "YourUserHere" text with your steam username, and "YourPasshere" with your steam password. 
+Your username and password must be written INSIDE the " " marks containing name and pass.
+
+Now to start the script:
+
+1. Install Docker Engine OR Docker desktop
+2. when located in the folder where files are located, run this command:
+docker build -t steam-friend-deny .
+
+That will build the docker "image" but the script is not yet running, to run the script run command: docker run -it steam-friend-deny
+
+This will run the container
